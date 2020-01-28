@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.olive.carbon_tracker.UI.AddNewRoute"
+    android:background="@drawable/roadbackground">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_add_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/AddRouteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="@string/AddRouteName"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar_add_route"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/AddCityDst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CityDst"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/RouteNameInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:id="@+id/AddHwayDst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HwayDst"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/CityDstInput"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/RouteNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Hint_Route_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap"
+        android:layout_below="@+id/AddRouteName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:id="@+id/CityDstInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/City_in_km"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/AddCityDst"
+        android:layout_alignStart="@+id/RouteNameInput"
+        android:layout_marginTop="19dp" />
+
+    <EditText
+        android:id="@+id/HwayDstInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hway_in_km"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/AddHwayDst"
+        android:layout_alignStart="@+id/CityDstInput"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

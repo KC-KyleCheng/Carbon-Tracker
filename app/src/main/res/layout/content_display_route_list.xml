@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.olive.carbon_tracker.UI.DisplayRouteList"
+    tools:showIn="@layout/activity_display_route_list"
+    tools:ignore="DisableBaselineAlignment">
+
+    <ListView
+        android:id="@+id/ROUTES"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        tools:ignore="InefficientWeight,ObsoleteLayoutParam,RtlHardcoded" />
+        <!--android:layout_below="@+id/Selection" -->
+
+
+</LinearLayout>

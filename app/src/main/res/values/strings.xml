@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Carbon Tracker</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="new_journey">New\n Journey</string>
+    <string name="select_journey">Select Journey</string>
+    <string name="carbon_footprint">Carbon\nFootprint</string>
+    <string name="title_activity_display_route_list">DisplayRouteList</string>
+    <string name="large_text">
+        "route list"
+    </string>
+    <!--CreateNewJourney-->
+    <string name="RouteName">Route Name: </string>
+    <string name="CityDistance">Distance in City: </string>
+    <string name="HwayDistance">Distance in Highway: </string>
+    <string name="TotalDistance">Total Distance: </string>
+    <string name="action_settings">Settings</string>
+    <string name="select_route">Select Route</string>
+    <string name="select_transportation_mode">Select Transportation Mode</string>
+    <string name="welcomescreen_text">WelcomeScreen</string>
+    <string name="route_name_input">Route Name</string>
+    <string name="hint_in_km">in KM</string>
+    <string name="hint_in_km_hway">in km</string>
+    <string name="hint_0">0</string>
+    <string name="AddRouteName">Route Name</string>
+    <string name="CityDst">Distance Driven In City</string>
+    <string name="HwayDst">Distance Driven In Highway</string>
+    <string name="TotalDst">Total Distance:</string>
+    <string name="default_totalDst_0">0</string>
+    <string name="Hint_Route_name">Route Name</string>
+    <string name="City_in_km">in KM</string>
+    <string name="hway_in_km">in KM</string>
+    <string name="DistanceInHighWay">KM</string>
+    <string name="DistanceInCity">KM</string>
+    <string name="tempRouteName">TextView</string>
+    <string name="tempTotalDst">TextView</string>
+    <string name="tempCityDst">TextView</string>
+    <string name="tempHwatDst">TextView</string>
+    <string name="Warning">The selected route will be discarded. Do you still want to delete it?</string>
+    <string name="CarWarning">The selected car will be discarded. Do you still want to delete it?</string>
+    <string name="BillWarning">The selected bill will be discarded. Do you still want to delete it?</string>
+    <string name="DeleteJourneyWarning">The Journey Will be discarded, Do you still want to delete it?</string>
+    <string name="CO2Emission">The CO2 Emission is: </string>
+    <string name="UserDeleteRoute">The Route You Select has been deleted</string>
+    <string name="UserDeleteVehicle">The Car You Select has been deleted</string>
+
+    <!--CreateNewJourney-->
+
+
+    <string name="nickname_for_your_car">nickname for your car</string>
+
+    <string-array name="make_list">
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>BMW</item>
+    </string-array>
+
+    <string-array name="model_list">
+        <item>Corolla</item>
+        <item>Loyale</item>
+        <item>Regal</item>
+    </string-array>
+
+    <string-array name="year_list">
+        <item>1985</item>
+        <item>1993</item>
+        <item>2007</item>
+    </string-array>
+    <string name="title_activity_display_car_list">DisplayCarList</string>
+    <string name="edit_a_car">Edit A Car</string>
+    <string name="displacement_and_transmission">Displacement and Transmission</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="year">Year</string>
+    <string name="select_a_transportation_mode">Select a transportation mode</string>
+    <string name="textview">TextView</string>
+    <string name="edit_journeys">Edit\nJourneys</string>
+    <string name="image_for_journey">Image for Journey</string>
+    <string name="UserDeleteJourney">The Journey you selected has been deleted</string>
+    <string name="_0_0">0.0</string>
+    <string name="total_natural_gas_usage">Total Natural Gas Usage</string>
+    <string name="gj">GJ</string>
+    <string name="number_of_people_living_in_the_house">Number of people living in the house</string>
+    <string name="kw_h">kW.h</string>
+    <string name="billing_date">Add a monthly utilities bill</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="total_electricity_usage">Total Electricity Usage</string>
+    <string name="click_date_to_change">click date to change</string>
+    <string name="co2_emitted">co2 emitted</string>
+    <string name="single_day">Single Day</string>
+    <string name="month">Month</string>
+    <string name="monthly_utilities">Monthly\n Utilities</string>
+    <string name="change_date">change date</string>
+
+    <string name="vehicle_tip_1">You are creating %.2f kg of CO2 from driving. Try taking transits.</string>
+    <string name="vehicle_tip_2">Your driving is creating %.2f kg of CO2 emissions. Try car pooling.</string>
+    <string name="vehicle_tip_3">Your car trips are generating %.2f kg of CO2. Try getting an electric car.</string>
+    <string name="vehicle_tip_4">Your driving is creating %.2f kg of CO2. Consider using cruise control.</string>
+    <string name="vehicle_tip_5">You are generating %.2f kg of CO2 from driving. Remember to remove excessive weight from your car.</string>
+    <string name="vehicle_tip_6">%.2f kg of CO2 is generated from your driving. Combine errands to make fewer trips.</string>
+    <string name="vehicle_tip_7">You are creating %.2f kg of CO2 from driving. Consider getting a fuel efficient car.</string>
+    <string name="vehicle_tip_8">Your driving is creating %.2f kg of CO2. Consider walking or riding a bike.</string>
+
+    <string name="vehicle_tip_human_1">You are creating as much CO2 as %.2f kg of regular garbage
+        can create from driving. Try taking transits.</string>
+    <string name="vehicle_tip_human_2">Your driving is creating as much CO2 as %.2f kg of regular
+        garbage can create. Try car pooling.</string>
+    <string name="vehicle_tip_human_3">Your car trips are generating as much CO2 as %.2f kg of regular
+        garbage can generate. Try getting an electric car.</string>
+    <string name="vehicle_tip_human_4">Your driving is creating as much CO2 as %.2f kg of regular
+        garbage can create. Consider using cruise control.</string>
+    <string name="vehicle_tip_human_5">You are generating as much CO2 as %.2f kg of regular
+        garbage can generate from driving. Remember to remove excessive weight from your car.</string>
+    <string name="vehicle_tip_human_6">Your driving is generating as much CO2 as %.2f kg of regular
+        garbage can generate. Combine errands to make fewer trips.</string>
+    <string name="vehicle_tip_human_7">You are creating as much CO2 as %.2f kg of regular
+        garbage can create from driving. Consider getting a fuel efficient car.</string>
+    <string name="vehicle_tip_human_8">Your driving is creating as much CO2 as %.2f kg of regular
+        garbage can create. Consider walking or riding a bike.</string>
+
+
+    <string name="energy_tip_1">Your electricity usage is producing %.2f kg of CO2. Try unplugging unused electronic devices.</string>
+    <string name="energy_tip_2">You are making %.2f kg of CO2 from electricity. Try shutting off lights when not in use and consider taking shorter showers.</string>
+    <string name="energy_tip_3">Your electricity usage is making %.2f kg of CO2. Try installing solar panels.</string>
+    <string name="energy_tip_4">Your energy usage is creating %.2f kg of CO2. Consider putting your computers in sleep mode when they are not in use.</string>
+    <string name="energy_tip_5">Your energy usage is generating %.2f kg of CO2. Try doing your laundry with cold water, and remember to change air filters frequently.</string>
+    <string name="energy_tip_6">%.2f kg of CO2 is created from your electricity usage. Consider switching to LED light bulbs.</string>
+    <string name="energy_tip_7">Your energy usage is generating %.2f kg of CO2. Try using your microwave over your oven when possible.</string>
+    <string name="energy_tip_8">%.2f kg of CO2 emission comes from your energy usage. Consider managing your thermostat so your heater does not operate too often.</string>
+
+    <string name="energy_tip_human_1">Your electricity usage is producing as much CO2 as %.2f kg of regular
+        garbage can produce. Try unplugging unused electronic devices.</string>
+    <string name="energy_tip_human_2">You are making as much CO2 as %.2f kg of regular garbage can make
+        from electricity. Try shutting off lights when not in use and consider taking shorter showers.</string>
+    <string name="energy_tip_human_3">Your electricity usage is making as much CO2 as %.2f kg of regular
+    garbage can make. Try installing solar panels.</string>
+    <string name="energy_tip_human_4">Your energy usage is creating as much CO2 as %.2f kg of regular
+        garbage can create. Consider putting your computers in sleep mode when they are not in use.</string>
+    <string name="energy_tip_human_5">Your energy usage is generating as much CO2 as %.2f kg of regular
+        garbage can generate. Try doing your laundry with cold water, and remember to change air filters frequently.</string>
+    <string name="energy_tip_human_6">Your electricity usage is creating as much CO2 as %.2f kg of regular
+        garbage can create. Consider switching to LED light bulbs.</string>
+    <string name="energy_tip_human_7">Your energy usage is generating as much CO2 as %.2f kg of regular
+        garbage can generate. Try using your microwave over your oven when possible.</string>
+    <string name="energy_tip_human_8">Your energy usage is producing as much CO2 as %.2f kg of regular
+        garbage can produce. Consider managing your thermostat so your heater does not operate too often.</string>
+
+
+    <string name="unrelated_tip_1">You drove %d times so far, When possible, walk or ride your bike in order to avoid carbon emissions completely. Carpooling
+        and public transportation drastically reduce CO2 emissions by spreading them out over many riders.</string>
+    <string name="unrelated_tip_2">You have produced %.2f kg of CO2 from home application. A better concept
+        is probably ‘embodied energy’, which takes account of all the carbon, water and energy that goes into producing any food or manufactured item. </string>
+    <string name="unrelated_tip_human_2">You have produced as much CO2 as %.2f kg of regular garbage can produce from home application.
+        A better concept is probably ‘embodied energy’, which takes account of all the carbon, water and energy that goes into producing any food or manufactured item. </string>
+    <string name="unrelated_tip_3">Drive a low carbon-emission vehicle. You drove %d km on Highways and cities, High mileage doesn’t always mean low CO2 emissions.
+        All vehicles have an estimated miles-per-gallon rating. Electric cars emit almost no CO2 in Canada. </string>
+    <string name="unrelated_tip_4">Get a hitch-mounted cargo rack. Do not buy a minivan or SUV if you do not need 4WD and/or will only
+        occasionally need the extra space since you drove SUV %d times </string>
+    <string name="unrelated_tip_5">You drove %d kn on highways. Speeding and unnecessary acceleration reduce mileage by up to 33/100, waste gas and money,
+        and increase your carbon footprint.</string>
+    <string name="unrelated_tip_6">Insulate and seal your home. You produced %.2f kg of CO2 from home application.
+        Reduce drafts and air leaks with caulk, insulation, and weather stripping. </string>
+    <string name="unrelated_tip_human_6">Insulate and seal your home. You produced as much CO2 as %.2f kg of regular garbage can
+        produce from home application. Reduce drafts and air leaks with caulk, insulation, and weather stripping. </string>
+    <string name="unrelated_tip_7">You drove %d km in cities. Being stuck in traffic wastes gas and unnecessarily creates CO2.
+        Use traffic websites and apps to pick different route.</string>
+    <string name="unrelated_tip_8"> You have ridden buses and skytrains as your daily transportation %d times! Keep it up!</string>
+
+    <string name="more_journeys_notification">You have entered %d journeys; want to enter more?</string>
+    <string name="more_utilities_notification">You entered %d utility bills; want to add more?</string>
+    <string name="no_recent_journeys_notification">You have not entered a journey today; want to enter one now?</string>
+    <string name="no_utilities_in_a_month_and_a_half">You have not entered utility in over a month and a half; want to enter one now?</string>
+    <string name="date_difference_error">ERROR: %s dateDifference calculation failed</string>
+    <string name="about_the_authors">About the Authors</string>
+    <string name="group_name_and_date">Created by Group Olive in 2017</string>
+    <string name="sfu_cs_hyperlink">Created for <a href="https://www.sfu.ca/computing.html">CMPT 276</a></string>
+    <string name="image_citations">
+        Images from:\nWelcome Screen Background: <a href="http://wide-wallpapers.net/road-to-monument-valley-utah-wide-wallpaper/">Road to Monument Valley, Utah</a>\nOld Car Icon: <a href="http://www.negaantiqueauto.com">Northeast Georgia Antique Auto Region</a>\nRoute 66 Sign: <a href="http://www.route66restequip.com/route66sign.png">Route 66 Restaurant Equipment</a>\nMap Icon: Icon made by <a href="http://www.flaticon.com/authors/puppets">Puppets</a> from <a href="www.flaticon.com">www.flaticon.com</a>\nBills Icon: <a href="http://www.curvve.com/blog/osx/2011/chronicle-family-bill-payment-done-right/">Curvve Media</a>\nGarbage Bag Icon: <a href="https://img.clipartfest.com/88267079e3acce8631a0e4971bba224f_garbage-icons-detailed-garbage-trash-bag-clipart-white_404-399.png">ClipartFest</a>\nCalender Icon: <a href="http://www.racedepartment.com/images/rd_calext/calendar.png">Race Department</a>\nGear Icon: <a href="https://pixabay.com/p-1630709/?no_redirect">Pixabay</a>\nCar Icon: <a href="https://www.vexels.com/vectors/preview/77467/flat-vintage-cars-icon-set">Vexels</a>\nBus Icon: <a href="http://www.iconarchive.com/show/kameleon.pics-icons-by-webalys/Bus-icon.html">Icon Archive</a>\nTrain Icon: <a href="https://www.iconfinder.com/icons/625850/directions_gps_map_navigation_rail_train_travel_icon#size=128">Icon Finder</a>\nWalking Icon: <a href="https://www.iconfinder.com/icons/339252/human_pedestrian_walk_walking_icon">Icon Finder</a>\nUtilities Background: <a href="http://www.kansasfolks.net/FamilyInfo/Photo%20Galleries/2014%20Colorado%20Vacation/Colorado%20Sightseeing/images/Wind_0055.jpg">Kansas Folks</a>\nGraphs Background: <a href="http://wallpapers.ae/wp-content/uploads/2016/02/Sun-Light-Sky-Wallpaper-720x1080.jpg">Wallpapers.ae</a>\nSingle Post Sign: <a href="http://www.clipartkid.com/images/97/blank-wooden-signs-wooden-sign-by-jackspade2012-KtqtU0-clipart.png">Clipart Kid</a>\nDouble Post Sign: <a href="http://www.miltonernestschool.ik.org/images/navbar-crop-u487.png">Milton Ernest School</a>
+    </string>
+    <string name="app_version">Version %.2f</string>
+    <string name="about">About</string>
+    <string name="change_co2_unit">Change CO2 unit</string>
+    <string name="add">add</string>
+    <string name="delete">delete</string>
+    <string name="check">check</string>
+    <string name="journey_carbon_emissions_bar_graph">Journey Carbon Emissions Bar Graph</string>
+    <string name="journey_carbon_emissions_pie_graph">Journey Carbon Emissions Pie Graph</string>
+    <string name="transportation_mode_carbon_emissions">Transportation Mode Carbon Emissions</string>
+    <string name="route_carbon_emissions">Route Carbon Emissions</string>
+    <string name="journey_carbon_emissions">Journey Carbon Emissions</string>
+    <string name="PleaseFillCarName">Please fill the name</string>
+    <string name="CO2UnitChanged">CO2 unit has been changed</string>
+    <string name="UnitChangedToGarbageUnit">CO2 unit has been changed to garbage unit</string>
+    <string name="UnitChangedToKG">CO2 unit has been changed to kg-CO2</string>
+    <string name="EndDateGreaterThanStartDate">Ending date cannot be equal to or earlier than starting date</string>
+    <string name="FillAtLeast1UsageData">Please fill in at least one of the usage data</string>
+    <string name="ValueCannotBe0">Number of people cannot be zero(blank)</string>
+    <string name="PickADate">Please pick a date</string>
+    <string name="BillHasBeenDeleted">The selected bill has been deleted</string>
+    <string name="TotaoDisCannotBe0">The total distance must not add up to zero.</string>
+    <string name="EnterInfoForRoute">Please enter at least your name and one of the distance fields.</string>
+    <string name="co2_production">You have produced: %s kg of CO2</string>
+    <string name="DifferentUnitForCO2Emitted">The CO2 emission you have produced is equivalent to producing %s kg of regular garbage.</string>
+    <string name="zero_emissions">The CO2 emission you have produced is equivalent to producing 0.00 kg of regular garbage.</string>
+    <string name="no_data_available">NO DATA AVAILABLE</string>
+    <string name="month_graph">Month Graph</string>
+    <string name="display_monthly_utilities">Display Monthly Utilities</string>
+    <string name="errorSingleDayCalculationFailed">ERROR: SingleDayGraph dateDifference calculation failed</string>
+    <string name="errorYearGraphCalculationFail">ERROR: YearGraph dateDifference calculation failed</string>
+    <string name="alreadyAtAboutScreen">You are already at About screen</string>
+</resources>
